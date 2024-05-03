@@ -28,11 +28,6 @@ let oponentejogavel = false;
 let meuspontos = 0;
 let pontosoponente = 0;
 
-//sons
-let somraquete;
-let somponto;
-let tema;
-
 function setup() {
   createCanvas(750, 500);
  // tema.setVolume(0.2);
@@ -61,12 +56,6 @@ function draw() {
 
   //ponto
   placar();
-}
-
-function preload() {
-  somponto = loadSound("Pontu.m4a");
-  somraquete = loadSound("raquetada.mp3");
-  tema = loadSound("tema.m4a");
 }
 
 //function bolinha
@@ -114,7 +103,6 @@ function colisaoraquetes(x, y) {
   );
   if (colidiu) {
     velocidadexbolinha *= -1;
-    //somraquete.play();
   }
 }
 
@@ -157,10 +145,10 @@ function placar() {
 
   if (xbolinha > 739) {
     meuspontos += 1;
-    //somponto.play();
+    
   }
   if (xbolinha < 11) {
     pontosoponente += 1;
-    //somponto.play();
+  
   }
 }
