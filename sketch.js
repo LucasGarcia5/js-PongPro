@@ -30,8 +30,7 @@ let pontosoponente = 0;
 
 function setup() {
   createCanvas(750, 500);
- // tema.setVolume(0.2);
-  //tema.loop();
+
 }
 
 function draw() {
