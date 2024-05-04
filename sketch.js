@@ -140,7 +140,6 @@ function placar() {
   text(meuspontos, 300, 50);
   rect(415, 15, 70, 50, 10);
   text(pontosoponente, 450, 50);
-  somponto.setVolume(0.1);
 
   if (xbolinha > 739) {
     meuspontos += 1;
