@@ -20,9 +20,7 @@ let xoponente = 730;
 let yoponente = 200;
 let velocidadeoponente;
 
-let oponentejogavel = false; 
-//para jogar com 2 pessoas troque "false" para "true"
-
+let oponentejogavel = true;
 
 //pontos
 let meuspontos = 0;
